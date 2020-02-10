@@ -37,7 +37,7 @@ export default class App extends Component {
     event.preventDefault()
 
     const domainNames = this.state.currentDomainNames.split(', ')
-    
+
     this.setState({ domainNames })
     this.postNames({ domainNames })
   }
